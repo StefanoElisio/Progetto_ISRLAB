@@ -171,7 +171,6 @@ def find_distance(sim, im_shapes, sensor, camera):
         z_x, z_y = m[2], m[6]
         s_x, s_y = m[3], m[7]
 
-        print(z_x,z_y)
         block_x = s_x + dist * z_x
         block_y = s_y + dist * z_y
         shapes.append((shape[0], block_x, block_y, shape[3]))

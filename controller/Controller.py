@@ -62,7 +62,6 @@ def controller_loop():
             safe_plan(closest,total_point)
         elif shared["desire"] != None:
             print('go_to_objective' + str(shared["objective"][0]))
-            print(shared["desire"])
             go_to(shared["desire"],total_point)
         elif going:
             print('going_plan')
