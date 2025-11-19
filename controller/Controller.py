@@ -46,6 +46,7 @@ def controller_loop():
 
         if shared["objective"] == []:
             shared["command"] = "stop"
+            print("Obiettivo Raggiunto, Fine esecuzione")
             break
 
         best_dir = get_best_gap(gap_len, gap_best_dir, gap_distance)

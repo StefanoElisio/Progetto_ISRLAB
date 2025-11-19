@@ -6,7 +6,7 @@ import math
 import SharedData
 import time
 
-min_shape_area = 400
+min_shape_area = 350
 lower = np.array([0,50,0])
 upper = np.array([150,255,255])
 pixel = 256
